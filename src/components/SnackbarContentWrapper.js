@@ -65,7 +65,7 @@ function SnackbarContentWrapper(props) {
                     color="inherit"
                     className={classes.closeButton}
                     onClick={onClose}
-                >
+                    size="large">
                     <CloseIcon className={classes.icon} />
                 </IconButton>,
             ]}
